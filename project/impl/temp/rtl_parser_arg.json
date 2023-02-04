@@ -1,0 +1,44 @@
+{
+ "Files" : [
+  {
+   "Path" : "F:/proj/nano4k_dvitx_hpram/project/src/dvi_tx/dvi_tx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/proj/nano4k_dvitx_hpram/project/src/gowin_pllvr/gowin_pllvr.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/proj/nano4k_dvitx_hpram/project/src/gowin_pllvr/hpram_pllvr.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/proj/nano4k_dvitx_hpram/project/src/hyperram_memory_interface/hyperram_memory_interface.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/proj/nano4k_dvitx_hpram/project/src/syn_code/syn_gen.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/proj/nano4k_dvitx_hpram/project/src/test_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/proj/nano4k_dvitx_hpram/project/src/testpattern.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/proj/nano4k_dvitx_hpram/project/src/video_frame_buffer/video_frame_buffer.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "F:/proj/nano4k_dvitx_hpram/project/impl/temp/rtl_parser.result",
+ "Top" : "test_top",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

@@ -1,0 +1,98 @@
+[
+ {
+  "InstFile" : "F:/proj/nano4k_dvitx_hpram/project/src/test_top.v",
+  "InstLine" : 2,
+  "InstName" : "test_top",
+  "ModuleFile" : "F:/proj/nano4k_dvitx_hpram/project/src/test_top.v",
+  "ModuleLine" : 2,
+  "ModuleName" : "test_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "F:/proj/nano4k_dvitx_hpram/project/src/test_top.v",
+    "InstLine" : 104,
+    "InstName" : "testpattern_inst",
+    "ModuleFile" : "F:/proj/nano4k_dvitx_hpram/project/src/testpattern.v",
+    "ModuleLine" : 18,
+    "ModuleName" : "testpattern"
+   },
+   {
+    "InstFile" : "F:/proj/nano4k_dvitx_hpram/project/src/test_top.v",
+    "InstLine" : 152,
+    "InstName" : "Video_Frame_Buffer_Top_inst",
+    "ModuleFile" : "F:/proj/nano4k_dvitx_hpram/project/src/video_frame_buffer/video_frame_buffer.v",
+    "ModuleLine" : 3358,
+    "ModuleName" : "Video_Frame_Buffer_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "F:/proj/nano4k_dvitx_hpram/project/src/video_frame_buffer/video_frame_buffer.v",
+      "InstLine" : 3409,
+      "InstName" : "vfb_hyperram_wrapper_inst",
+      "ModuleFile" : "F:/proj/nano4k_dvitx_hpram/project/src/video_frame_buffer/video_frame_buffer.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~vfb_hyperram_wrapper.Video_Frame_Buffer_Top"
+     }
+    ]
+   },
+   {
+    "InstFile" : "F:/proj/nano4k_dvitx_hpram/project/src/test_top.v",
+    "InstLine" : 184,
+    "InstName" : "hpram_pllvr_inst",
+    "ModuleFile" : "F:/proj/nano4k_dvitx_hpram/project/src/gowin_pllvr/hpram_pllvr.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "hpram_pllvr"
+   },
+   {
+    "InstFile" : "F:/proj/nano4k_dvitx_hpram/project/src/test_top.v",
+    "InstLine" : 191,
+    "InstName" : "HyperRAM_Memory_Interface_Top_inst",
+    "ModuleFile" : "F:/proj/nano4k_dvitx_hpram/project/src/hyperram_memory_interface/hyperram_memory_interface.v",
+    "ModuleLine" : 3170,
+    "ModuleName" : "HyperRAM_Memory_Interface_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "F:/proj/nano4k_dvitx_hpram/project/src/hyperram_memory_interface/hyperram_memory_interface.v",
+      "InstLine" : 3213,
+      "InstName" : "u_hpram_top",
+      "ModuleFile" : "F:/proj/nano4k_dvitx_hpram/project/src/hyperram_memory_interface/hyperram_memory_interface.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~hpram_top.HyperRAM_Memory_Interface_Top"
+     }
+    ]
+   },
+   {
+    "InstFile" : "F:/proj/nano4k_dvitx_hpram/project/src/test_top.v",
+    "InstLine" : 216,
+    "InstName" : "syn_gen_inst",
+    "ModuleFile" : "F:/proj/nano4k_dvitx_hpram/project/src/syn_code/syn_gen.v",
+    "ModuleLine" : 13,
+    "ModuleName" : "syn_gen"
+   },
+   {
+    "InstFile" : "F:/proj/nano4k_dvitx_hpram/project/src/test_top.v",
+    "InstLine" : 268,
+    "InstName" : "u_Gowin_PLLVR",
+    "ModuleFile" : "F:/proj/nano4k_dvitx_hpram/project/src/gowin_pllvr/gowin_pllvr.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "Gowin_PLLVR"
+   },
+   {
+    "InstFile" : "F:/proj/nano4k_dvitx_hpram/project/src/test_top.v",
+    "InstLine" : 284,
+    "InstName" : "DVI_TX_Top_inst",
+    "ModuleFile" : "F:/proj/nano4k_dvitx_hpram/project/src/dvi_tx/dvi_tx.v",
+    "ModuleLine" : 1042,
+    "ModuleName" : "DVI_TX_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "F:/proj/nano4k_dvitx_hpram/project/src/dvi_tx/dvi_tx.v",
+      "InstLine" : 1073,
+      "InstName" : "rgb2dvi_inst",
+      "ModuleFile" : "F:/proj/nano4k_dvitx_hpram/project/src/dvi_tx/dvi_tx.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~rgb2dvi.DVI_TX_Top"
+     }
+    ]
+   }
+  ]
+ }
+]
